@@ -1,7 +1,20 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.experience__title {
+  margin-bottom: 2rem;
+}
+
 .experience__timeline {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 0;
   padding-left: 2rem;
+  width: 100%;
+  max-width: 700px;
 }
 
 /* the vertical line */
