@@ -7,11 +7,11 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Gastón Bonfils",
-  role: "Data Scientist",
+  role: "AI Engineer",
   picture: "fotoPerfil.jpg",
 
   description:
-    "Data Scientist with a Bachelor's degree in Computer Science and hands-on experience in data pipeline development, statistical analysis, and machine learning experimentation. Eager to apply strong analytical foundations and engineering skills to data-driven problems.",
+    "AI Engineer with a Bachelor's degree in Computer Science and hands-on experience in AI model development, deep learning, and natural language processing. Eager to apply strong analytical foundations and engineering skills to data-driven problems.",
   resume: "Bonfils_Gaston.pdf", // if no resume, the button will not show up
   social: {
     linkedin:
@@ -60,14 +60,15 @@ const projects = [
     image: "fashionDataset2.png",
   },
 
-  // {
-  //   name: "Project 3",
-  //   description:
-  //     "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-  //   stack: ["SASS", "TypeScript", "React"],
-  //   sourceCode: "https://github.com",
-  //   livePreview: "https://github.com",
-  // },
+  {
+    name: "Reinforcement Learning Agents",
+    description:
+      "Developed reinforcement learning algorithms to train autonomous agents in simulated environments. Implemented A2C and policy gradient methods to optimize decision-making processes.",
+    stack: ["Python", "OpenAI Gym", "TensorFlow"],
+    sourceCode: "https://github.com/gastonBonfils/reinforcement-learning",
+    // livePreview: "https://github.com",
+    image: "rlWalker.png",
+  },
 ];
 
 const skills = [
